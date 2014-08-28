@@ -1,21 +1,15 @@
 <form id="search-widget-form" role="search" method="GET" action="">
 	<div class="" id="search-widget-fields">
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="[[global:search]]" name="query" value="">
-		</div>
-		<!--<button type="submit" class="btn btn-default hide">[[global:search]]</button>-->
+		<input type="text" class="form-control" placeholder="[[global:search]]" name="query" value="">
 	</div>
-	<!--<button id="search-widget-button" type="button" class="btn btn-link"><i class="fa fa-search fa-fw" title="[[global:header.search]]"></i></button>-->
 </form>
-
-
 
 <script>
 (function() {
 	function handleSearch() {
 		var searchButton = $("#search-widget-button"),
 				searchFields = $("#search-widget-fields"),
-				searchInput = $('#search-widget-fields input');
+				searchInput = $("#search-widget-fields input");
 
 		function dismissSearch(){
 			searchFields.hide();
