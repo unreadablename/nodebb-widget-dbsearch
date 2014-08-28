@@ -1,0 +1,20 @@
+{
+	"id": "nodebb-widget-dbsearch",
+	"name": "NodeBB DB Search Widget",
+	"description": "DB Search widget",
+	"url": "",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:widgets.getWidgets", "method": "defineWidgets"
+		},
+		{
+			"hook": "filter:widget.render:dbsearch", "method": "renderDbSearchWidget"
+		}
+	],
+	"templates": "./public/templates",
+	"compatibility": "~0.5.0"
+}

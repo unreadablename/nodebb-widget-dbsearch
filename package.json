@@ -1,0 +1,9 @@
+{
+  "name": "nodebb-widget-dbsearch",
+  "version": "0.0.1",
+  "description": "NodeBB DBSearch Widget",
+  "main": "library.js",
+  "dependencies": {
+    "async": "^0.2.10"
+  }
+}
