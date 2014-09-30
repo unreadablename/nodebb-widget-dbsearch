@@ -5,7 +5,7 @@
 		fs = require('fs'),
 		path = require('path'),
 		translator = module.parent.require('../public/src/translator'),
-		templates = module.parent.require('../public/src/templates'),
+		templates = module.parent.require('templates.js'),
 		app;
 
 	var Widget = {
