@@ -5,5 +5,22 @@
   "main": "library.js",
   "dependencies": {
     "async": "^0.2.10"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unreadableusername/nodebb-widget-dbsearch.git"
+  },
+  "keywords": [
+    "widget",
+    "dbsearch"
+  ],
+  "author": "Oleksandr Pidlisnyi <oleksandr.pidlisnyi@gmail.com> (https://github.com/unreadableusername)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unreadableusername/nodebb-widget-dbsearch/issues"
+  },
+  "homepage": "https://github.com/unreadableusername/nodebb-widget-dbsearch"
 }
