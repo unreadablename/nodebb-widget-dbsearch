@@ -1,7 +1,7 @@
 {
 	"id": "nodebb-widget-dbsearch",
 	"name": "NodeBB DB Search Widget",
-	"description": "DB Search widget",
+	"description": "Activate nodebb-plugin-dbsearch first",
 	"url": "https://github.com/unreadableusername/nodebb-widget-dbsearch",
 	"library": "./library.js",
 	"hooks": [
