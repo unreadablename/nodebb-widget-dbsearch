@@ -2,7 +2,7 @@
 	"id": "nodebb-widget-dbsearch",
 	"name": "NodeBB DB Search Widget",
 	"description": "DB Search widget",
-	"url": "",
+	"url": "https://github.com/unreadableusername/nodebb-widget-dbsearch",
 	"library": "./library.js",
 	"hooks": [
 		{
