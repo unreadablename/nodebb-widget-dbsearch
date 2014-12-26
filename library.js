@@ -1,7 +1,8 @@
 (function(module) {
 	"use strict";
 
-	var async = require('async'),
+	var
+		async = require('async'),
 		fs = require('fs'),
 		path = require('path'),
 		translator = module.parent.require('../public/src/translator'),
@@ -35,8 +36,10 @@
 		callback(null, widgets);
 	};
 
-	Widget.init = function(express, middleware, controllers, callback) {
-		app = express;
+	Widget.init = function (params, callback) {
+		var router = params.router,
+			middleware = params.middleware,
+			controllers = params.controllers;
 
 		var templatesToLoad = [
 			"dbsearch.tpl",

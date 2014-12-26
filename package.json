@@ -1,6 +1,6 @@
 {
   "name": "nodebb-widget-dbsearch",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "NodeBB DBSearch Widget",
   "main": "library.js",
   "dependencies": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/unreadableusername/nodebb-widget-dbsearch/issues"
   },
-  "homepage": "https://github.com/unreadableusername/nodebb-widget-dbsearch"
+  "homepage": "https://github.com/unreadableusername/nodebb-widget-dbsearch",
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  }
 }
